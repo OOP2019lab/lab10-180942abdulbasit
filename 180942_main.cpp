@@ -15,7 +15,7 @@ void main()
 	Course C1("OOP","CS102");
 	Course C2("PF","CS101");
 	Course C3("AI","CS365");
-	
+
 
 	//////// TASK 1 /////////
 

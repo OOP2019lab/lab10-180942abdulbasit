@@ -6,9 +6,9 @@ using namespace std;
 
 Student::Student(string u,string n, string r):username(u),name(n),roll_number(r)   //overloaded constructor which takes name and roll number
 {
-maxCourses=2;
-noOfCourses=0;
-Clist=new Course*[maxCourses];
+	maxCourses=2;
+	noOfCourses=0;
+	Clist=new Course*[maxCourses];
 }
 
 Student::~Student()

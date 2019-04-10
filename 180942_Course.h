@@ -25,7 +25,7 @@ public:
 	string Course::getCourseName();
 	void Course::addStudent2(Student *s);
 
-    friend ostream& operator<<(ostream& out, const Course& c1);
+	friend ostream& operator<<(ostream& out, const Course& c1);
 	friend class Student;
 };
 
